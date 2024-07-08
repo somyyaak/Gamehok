@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gamehok</string>
+    <string name="follow">Follow</string>
+    <string name="pubg_tournament">PUBG tournament</string>
+    <string name="_10">10</string>
+    <string name="entry">Entry -</string>
+    <string name="details">Details</string>
+    <string name="format">Format</string>
+    <string name="play_tournament_by_games">Play Tournament by Games</string>
+    <string name="view_all">View All</string>
+    <string name="_2456">2456</string>
+    <string name="compete_in_battles">Compete in Battles</string>
+    <string name="view_more">View More</string>
+    <string name="team_size">TEAM SIZE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_to_the_battleground_of_pubg">Welcome To The Battleground Of PUBG</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/round_border"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include android:id="@+id/prize_heading"
+        layout="@layout/tournament_prizes_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <include
+        android:id="@+id/first_prize_item"
+        layout="@layout/tournament_prizes_item"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/prize_heading"
+        />
+    <include
+        android:id="@+id/second_prize_item"
+        layout="@layout/tournament_prizes_item"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/first_prize_item"
+        />
+
+    <include
+        android:id="@+id/third_prize_item"
+        layout="@layout/tournament_prizes_item"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/second_prize_item"
+        />
+    <include
+        android:id="@+id/fourth_prize_item"
+        layout="@layout/tournament_prizes_item"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/third_prize_item"
+        />
+    <include
+        android:id="@+id/fifth_prize_item"
+        layout="@layout/tournament_prizes_item_bottom_border"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/fourth_prize_item"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

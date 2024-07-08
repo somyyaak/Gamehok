@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginEnd="14dp"
+    android:layout_gravity="center"
+    android:background="@drawable/round_border">
+
+    <ImageView
+        android:id="@+id/upcoming_tournament_img"
+        android:layout_width="250dp"
+        android:background="@drawable/tournament_item_background"
+        android:layout_height="150dp"
+        android:src="@drawable/tournament1"
+        android:scaleType="centerCrop"
+        android:layout_margin="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
+    <TextView
+        android:id="@+id/upcoming_tournament_name_pubg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="PUBG tournament  By Red Bull"
+        android:layout_marginStart="12dp"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="12dp"
+        app:layout_constraintTop_toBottomOf="@id/upcoming_tournament_img"
+        app:layout_constraintLeft_toLeftOf="@id/upcoming_tournament_img"/>
+
+    <ImageView
+        android:id="@+id/calender_img"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/baseline_calendar_today_24"
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/upcoming_tournament_name_pubg"
+        />
+    <TextView
+        android:id="@+id/upcoming_tournament_date_pubg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="25 Jun - 26 Jun"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintTop_toTopOf="@id/calender_img"
+        app:layout_constraintBottom_toBottomOf="@id/calender_img"
+        app:layout_constraintLeft_toRightOf="@id/calender_img"/>
+    <TextView
+        android:id="@+id/entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entry -"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="12dp"
+        app:layout_constraintTop_toBottomOf="@id/calender_img"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/upcoming_entry_amount_pubg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="10"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintTop_toBottomOf="@id/calender_img"
+        app:layout_constraintLeft_toRightOf="@id/entry"/>
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="10dp"
+        android:layout_height="16dp"
+        android:src="@drawable/coin"
+        android:layout_marginStart="2dp"
+        app:layout_constraintLeft_toRightOf="@id/upcoming_entry_amount_pubg"
+        app:layout_constraintTop_toTopOf="@id/upcoming_entry_amount_pubg"
+        app:layout_constraintBottom_toBottomOf="@id/upcoming_entry_amount_pubg"
+        />
+    <TextView
+        android:id="@+id/upcoming_registered_users_pubg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="670/800"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="2dp"
+        app:layout_constraintTop_toBottomOf="@id/calender_img"
+        app:layout_constraintRight_toRightOf="@id/upcoming_tournament_img"/>
+    <ImageView
+        android:id="@+id/user"
+        android:layout_width="10dp"
+        android:layout_height="16dp"
+        android:src="@drawable/users"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintRight_toLeftOf="@id/upcoming_registered_users_pubg"
+        app:layout_constraintTop_toTopOf="@id/upcoming_registered_users_pubg"
+        app:layout_constraintBottom_toBottomOf="@id/upcoming_registered_users_pubg"
+        />
+    <TextView
+        android:id="@+id/tournament_details_pubg"
+        android:layout_width="170dp"
+        android:layout_height="20dp"
+        android:text="See tournament details"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="12dp"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/entry"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:src="@drawable/arrow"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/upcoming_registered_users_pubg"
+        app:layout_constraintRight_toRightOf="@id/upcoming_tournament_img"
+        />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

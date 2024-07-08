@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/round_border">
+
+    <include android:id="@+id/round_heading_labels"
+        layout="@layout/rounds_section_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <include android:id="@+id/round_details_qualifiers"
+        layout="@layout/rounds_section_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/round_heading_labels"/>
+
+    <include android:id="@+id/round_details_quarter_finals"
+        layout="@layout/rounds_section_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/round_details_qualifiers"/>
+
+    <include android:id="@+id/round_details_semi_final"
+        layout="@layout/rounds_section_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/round_details_quarter_finals"/>
+
+    <include android:id="@+id/round_details_final"
+        layout="@layout/rounds_section_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/round_details_semi_final"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
