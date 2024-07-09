@@ -14,8 +14,9 @@
 
 
 
-
+Home Screen Screenshot-1
 ![Screenshot_1720470883](https://github.com/somyyaak/Gamehok/assets/87721952/fd68f79a-1cce-441d-8b32-49405db70234)
+Home Screen Screenshot-2
 ![Screenshot_1720470896](https://github.com/somyyaak/Gamehok/assets/87721952/2f400d79-a8c6-470d-9662-5e18716661c6)
 ![Screenshot_1720470927](https://github.com/somyyaak/Gamehok/assets/87721952/3ba8b6a7-8932-498e-a667-0860995955c1)
 ![Screenshot_1720470945](https://github.com/somyyaak/Gamehok/assets/87721952/f2a41765-a69d-446a-ba0a-f479622ee546)
