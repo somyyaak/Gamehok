@@ -1,7 +1,7 @@
   An android app with a homepage screen , a tournament detail screen and game detail screen.In this application  :
   -  I have used MVVM architecture to display the data.
   -  I am using dummy data for this application currently.
-  -  I have used RecyclerView with different layouts such as Lineaer,Vertical,Horizontal and Grid.
+  -  I have used RecyclerView with different layouts such as - Lineaer,Vertical,Horizontal and Grid.
   -  I have implemented bottom navigation and tab layout.
   -  I have kept the data fetching code in coroutines scope.
   -  I have used paracelable to transfer data between activities.
