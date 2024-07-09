@@ -7,7 +7,7 @@
   -  I have used paracelable to transfer data between activities.
   -  Screens implemented - Home Screen , Game Detail Screen and Tournament Screen.
   -  HomeScreen contains GridLAyout of game and Horizontal layout of tournaments.
-  -  When the user will click on any game then GameDetail Screen open.
+  -  When the user will click on any game then GameDetail Screen will open.
   -  When user will click on any tournament then Tournament Detail Screen will open
  
      
