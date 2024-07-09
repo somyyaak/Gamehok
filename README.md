@@ -1,3 +1,20 @@
+  An android app with a homepage screen , a tournament detail screen and game detail screen.In this application  :
+  -  I have used MVVM architecture to display the data.
+  -  I am using dummy data for this application currently.
+  -  I have used RecyclerView with different layouts such as Lineaer,Vertical,Horizontal and Grid.
+  -  I have implemented bottom navigation and tab layout.
+  -  I have kept the data fetching code in coroutines scope.
+  -  I have used paracelable to transfer data between activities.
+  -  Screens implemented - Home Screen , Game Detail Screen and Tournament Screen.
+  -  HomeScreen contains GridLAyout of game and Horizontal layout of tournaments.
+  -  When the user will click on any game then GameDetail Screen open.
+  -  When user will click on any tournament then Tournament Detail Screen will open
+ 
+     
+
+
+
+
 ![Screenshot_1720470883](https://github.com/somyyaak/Gamehok/assets/87721952/fd68f79a-1cce-441d-8b32-49405db70234)
 ![Screenshot_1720470896](https://github.com/somyyaak/Gamehok/assets/87721952/2f400d79-a8c6-470d-9662-5e18716661c6)
 ![Screenshot_1720470927](https://github.com/somyyaak/Gamehok/assets/87721952/3ba8b6a7-8932-498e-a667-0860995955c1)
